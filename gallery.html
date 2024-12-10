@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DEVELOPER: Mike Felix, FA24-IS117005, Fall 2024 -->
+
+<!--About the head seection-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>Swim For Fun</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-	QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="shortcut icon" href="logo.ico">
+	<link rel="stylesheet" href="m1.css">
+</head>
+
+<body>
+<!--About the header section-->
+	<header>
+		<!--<img src="logo.jpg" alt="Swim for Fun Logo" height="40">
+		<h2>Swim for Fun</h2><-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-						YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	</header>
+<!--About the navigation bar-->
+	<div id="nav_menu">
+		<ul>
+			<li><a href="swim.html">Home</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li class="current"><a href="about.html">About</a>
+				<ul>
+					<li><a href="info.html">Contact Information</a></li>
+				</ul>     
+			</li>
+		</ul>
+		
+		</div>
+		
+  <section>
+<h4>Gallery</h4>
+<style>
+	
+	div.gallery {
+		border: 1px solid #ccc;
+  	}
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
+  
+  * {
+	box-sizing: border-box;
+  }
+  
+  .responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+	.responsive {
+	  width: 49.99999%;
+	  margin: 6px 0;
+	}
+  }
+  
+  @media only screen and (max-width: 500px) {
+	.responsive {
+	  width: 100%;
+	}
+  }
+  
+  .clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  img{
+	width: 100%;
+	height: auto;
+	transition: transform 0.3s ease-in-out;
+  }
+  img:hover{
+	transform: scale(1.05);
+  }
+  </style>
+
+  <h5>POOL PICTURES</h5>
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="p1.jfif">
+		<img src="p1.jfif" alt="Cinque Terre" width="600" height="400">
+	  </a>
+	  <div class="desc">Picture of a swimming pool</div>
+	</div>
+  </div>
+  
+  
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="p2.jfif">
+		<img src="p2.jfif" alt="Cinque Terre" width="600" height="400">
+	  </a>
+	  <div class="desc">This is a beautiful pool with clear water</div>
+	</div>
+  </div>
+  
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="p3.jfif">
+		<img src="p3.jfif" alt="Northern Lights" width="600" height="400">
+	  </a>
+	  <div class="desc">Underwater overview of a pool</div>
+	</div>
+  </div>
+  
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="p4.jfif">
+		<img src="p4.jfif" alt="Mountains" width="600" height="400">
+	  </a>
+	  <div class="desc">Generic training or competition pool</div>
+	</div>
+  </div>
+  
+  <div class="clearfix"></div>
+
+  <h5>BACKSTROKE PICTURES</h5>
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="b1.jfif">
+		<img src="b1.jfif" alt="Cinque Terre" width="600" height="400">
+	  </a>
+	  <div class="desc">Beautiful picture of swimmer using the backstroke technique</div>
+	</div>
+  </div>
+  
+  
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="b2.jfif">
+		<img src="b2.jfif" alt="Forest" width="400" height="200">
+	  </a>
+	  <div class="desc">Nice contrast of backstroke technique and the luminescent pool</div>
+	</div>
+  </div>
+  
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="b3.jfif">
+		<img src="b3.jfif" alt="Northern Lights" width="600" height="400">
+	  </a>
+	  <div class="desc">Picture of a swimmer breathing while using the backstroke technique</div>
+	</div>
+  </div>
+  
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="b4.jfif">
+		<img src="b4.jfif" alt="Mountains" width="600" height="400">
+	  </a>
+	  <div class="desc">Backstroke swimmers competing in the national</div>
+	</div>
+  </div>
+  
+  <div class="clearfix"></div>
+
+  <h5>FREESTYLE PICTURES</h5>
+
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="f1.jfif">
+		<img src="f1.jfif" alt="Cinque Terre" width="600" height="400">
+	  </a>
+	  <div class="desc">Underview of a freestyle swimmer</div>
+	</div>
+  </div>
+  
+  
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="f3.jfif">
+		<img src="f3.jfif" alt="Forest" width="600" height="400">
+	  </a>
+	  <div class="desc">Nike swimmer athlete effecting a beautiful freestyle perfomance</div>
+	</div>
+  </div>
+  
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="f2.jfif">
+		<img src="f2.jfif" alt="Northern Lights" width="600" height="400">
+	  </a>
+	  <div class="desc">Male swimmer using the small opening created by his stroke to breathe while swimming freestyle</div>
+	</div>
+  </div>
+  
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="f4.jfif">
+		<img src="f4.jfif" alt="Mountains" width="600" height="400">
+	  </a>
+	  <div class="desc">Picture of a swimmer propulsing himself from the edge of pool to start his set</div>
+	</div>
+  </div>
+  
+  <div class="clearfix"></div>
+  <h5>BUTTERFLY PICTURES</h5>
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="bu1.jfif">
+		<img src="bu1.jfif" alt="Cinque Terre" width="600" height="400">
+	  </a>
+	  <div class="desc">Beautiful butterfly technique being displayed by an extraordinary swimmer</div>
+	</div>
+  </div>
+  
+  
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="bu2.jfif">
+		<img src="bu2.jfif" alt="Forest" width="600" height="400">
+	  </a>
+	  <div class="desc">Back overview of swimmer using butterfly technique</div>
+	</div>
+  </div>
+  
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="bu3.jfif">
+		<img src="bu3.jfif" alt="Northern Lights" width="600" height="400">
+	  </a>
+	  <div class="desc">Perfect representation of swimmer resembling a butterfly while using the butterfly stroke</div>
+	</div>
+  </div>
+  
+  <div class="responsive">
+	<div class="gallery">
+	  <a target="_blank" href="bu4.jfif">
+		<img src="bu4.jfif" alt="Mountains" width="600" height="400">
+	  </a>
+	  <div class="desc">WONDERFUL! Simply Wonderful!</div>
+	</div>
+  </div>
+  
+  <div class="clearfix"></div>
+</style>
+
+
+
+
+
+
+
+<footer>
+		<p>&copy Mike Felix 2024, New Jersey, Preserved Rights, Swim for fun</p>
+</footer>
+</body>
+</html>

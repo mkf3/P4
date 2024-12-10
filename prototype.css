@@ -1,0 +1,134 @@
+.{
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+html {
+	background-color: #00658c;
+    cursor: url('path-to-image.png'), auto;	
+}
+header {
+    font-size: 100%;
+    margin: 0 auto;
+    padding: 10%;
+    }
+header img {
+	float: left;
+	padding: 0 30px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid black;
+    background-color:#E3FAFF ;
+}
+/* style for navigation bar*/
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 40em) {
+	/* #menu is the original menu */
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+}
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+
+}
+#nav_menu ul li {
+	float: left;
+    margin-right: 20px;
+}
+#nav_menu ul li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #00658c;
+    color:  black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+    background-color: silver;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+section {
+    float: right;
+    display: flex;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    min-width:5%;
+    max-width: 30%;
+    .card {
+        box-shadow: 0 4px 8px 0;
+        transition: 0.3s;
+        border-radius: 5px;
+        border-color: black; 
+        background-color: #118ba7;
+        display: flex;
+      }
+      img {
+        border-radius:0%;
+        width: 100%;
+        height:fit-content;
+        transition: transform 0.3s ease-in-out;
+        align-items: center;
+      }
+      .card:hover {
+        box-shadow: 0 8px 16px 0 ;
+        transform: scale(1.05);
+      }
+      .container {
+        padding: 2px 16px;
+        position: relative;
+      }
+}
+aside p{
+    float: left;
+    width: 50%;
+    border: dotted black 3px;
+    padding: 5px 2px;
+    margin: 5px 5px;
+}
+footer {
+        clear: both;
+        position: static;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+}
